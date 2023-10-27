@@ -1,0 +1,157 @@
+# Ignore temporary files and directories
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies and virtual environments
+node_modules/
+__pycache__/
+venv/
+.env
+
+# Ignore generated files
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.db
+
+# Ignore configuration files
+*.config
+*.conf
+*.ini
+
+# Ignore local settings
+*.local
+
+# Ignore files containing secrets
+*.secrets
+
+# Ignore media files (for non-media-related projects)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+
+# Ignore cached files and directories
+.cache/
+.cached-data/
+
+# Ignore temporary editor files
+.vscode/
+.idea/
+
+# Ignore Git merge conflict files
+*.orig
+
+# Ignore auto-generated documentation folders
+docs/
+doc/
+docgen/
+GeneratedDocs/
+
+# Ignore application and error logs
+logs/
+log/
+log-*
+
+# Ignore temporary files created by various IDEs
+*.swp
+*.log
+.svn/
+*.komodoproject
+.komodotools/
+
+# Ignore build project files
+/build/
+/dist/
+/out/
+
+# Ignore editor and IDE settings files
+.editorconfig
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs_analysis.dat
+*.suo
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore settings files for virtual environments and package managers
+.Python
+venv/
+ENV/
+env/
+env.bak/
+.python-version
+.python-version-3.6
+.python-version-3.7
+.python-version-3.8
+.python-version-3.9
+.python-version-3.10
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore translation and localization files
+*.mo
+*.pot
+*.msg
+*.po
+
+# Ignore Visual Studio Code settings files
+.vscode/
+
+# Ignore files related to tests and debugging
+__tests__/
+test/
+tests/
+coverage/
+*.log
+*.logs
+*.log.*
+*.journal
+
+# Ignore Node.js platform-related files
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Ignore files created by PyCharm IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore Sublime Text editor settings files
+*.sublime-workspace
+*.sublime-project
+*.sublime-settings
+
+# Ignore Vim editor settings files
+*.swp
+*.swo
+
+# Ignore Emacs editor settings files
+# Uncomment the following lines if you are using Emacs
+# .emacs.desktop
+# .emacs.desktop.lock
+
+# Ignore VIM editor settings files
+.vim/
+
+# Ignore Neovim editor settings files
+.nvim/
+
+# Ignore Visual Studio settings files
+.vs/
+# Uncomment if using VSCode
+# .vscode/
+
+# Ignore IntelliJ IDEA settings files
+# .idea/
